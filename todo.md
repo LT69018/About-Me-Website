@@ -1,3 +1,4 @@
+- index.html: Fix formatting of body container. (wondering why it doesn't look the same as the about-me.html)
 - [ ] Populate about me page + make a folder for images (i.e. my headshot, a )
     - add resume, linkedIN, maybe twitter
 - [ ] *find a way to have the header appear on each page. Is there a way to load/inject html from a **common header**.html?*
@@ -8,4 +9,4 @@
 - [ ] Format: 
     - [ ] navbar active link (Want light purple with white text instead of completely white and black)
     - [ ] main container: want gap between the h1 and the navbar.
-    
+- [ ] Add preview image to ReadME.md
