@@ -2,6 +2,19 @@ head {
     background-color: blueviolet;
 }
 
+body {
+    background-color: rgb(159, 185, 235);
+    color: black;
+}
+
+nav {
+    background-color:rgb(65, 35, 157);
+    color: white;
+}
+.nav-link {
+    color: white;
+}
+
 .banner {
     background-color:blueviolet;
     color: white;
@@ -20,9 +33,4 @@ head {
 .banner-link {
     background-color:blueviolet;
     color: white;
-}
-
-body {
-    background-color: rgb(159, 185, 235);
-    color: black;
 }

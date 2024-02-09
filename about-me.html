@@ -4,24 +4,37 @@
   <!-- <iframe src="header.html" width="100%" height="100" frameborder="0" scrolling="no"></iframe> -->
   <head>  
     <meta charset="utf-8" />
+    <!-- From bootstrap's getting started - introduction -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css" />
-    <title>LT69018 About Me</title>
+    <title>LT69018 Site</title>
   </head>
   <body>
-    <div class="banner">
-      <!-- Add Empty space above the links -->
-      <p></p>
-      <a href="index.html" class="banner-link">Home</a> | 
-      <a href="about-me.html" class="banner-link">About Me</a> |
-    </div>
-    <h1>About me</h1>
+    <header>
+      <nav> 
+        <ul class="nav nav-tabs navbar-expand">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="true" href="about-me.html">About Me</a>
+          </li>
+        </ul>
+      </nav>
+      </header>
+    <div class="container">
+      
+      <h1>About me</h1>
 
-    <p>My name is Jess!</p>
-    <p>I will come back and fill in more information later :)</p>
-    <!--
-    <script src="App.js">
-        render();
-    </script>
-    -->
+      <p>My name is Jess!</p>
+      <p>I will come back and fill in more information later :)</p>
+      <!--
+      <script src="App.js">
+          render();
+      </script>
+      -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
