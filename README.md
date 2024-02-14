@@ -9,5 +9,7 @@ begin learning how to apply responsive web design frameworks like Bootstrap.
 References:
 - Bootstrap css`<link>` and js `<script>` and  are from
 https://getbootstrap.com/docs/5.3/getting-started/introduction/
+- Sidebar source code:
+https://getbootstrap.com/docs/5.0/examples/sidebars/# (left-most example)
 - Have the navigation bar appear across each HTML page
 https://www.linkedin.com/advice/0/how-can-you-reuse-headers-footers-multiple-web-pages-skills-html
