@@ -2,8 +2,8 @@
     - add resume, linkedIN, maybe twitter    
 
 - [ ] Format: 
+    - [X] Once **we make the links go to the relevant pages on index**, make sure the page content goes on the right side of that.
     - [ ] Reformat pages to use left-most sidebar. 
-    - [ ] Once we make the links go to the relevant pages on index, make sure the page content goes on the right side of that.
     - [ ] main container: want gap between the h1 and the navbar.
 - [ ] Add preview image to ReadME.md
 
