@@ -7,6 +7,16 @@ body {
     color: black;
 }
 
+
+/* Source: https://www.w3schools.com/howto/howto_css_image_center.asp */
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
 nav {
     background-color:rgb(65, 35, 157);
     color: white;

@@ -8,11 +8,12 @@
 - [ ] Add preview image to ReadME.md
 
 If time permits:
+
 - [ ] *find a way to have the header appear on each page. Is there a way to load/inject html from a **common header**.html?*
     - [X] Use Bootstrap to create a header.
     https://getbootstrap.com/docs/5.3/examples/headers/#
     - [ ] Probably use JS to populate the same header across multiple pages. So I don't have to keep copy and pasting it between files!: JQuery
-
+- [ ] Collapsable side-bar (i.e. click a === on the top left to make it appear.)
 Resolved:
 (If we go with the bootstrap source sidebar, we don't need this.)
     - [ ] navbar active link (Want light purple with white text instead of completely white and black)
