@@ -1,14 +1,14 @@
-- [ ] Populate about me page + make a folder for images (i.e. my **headshot**, a )
+- [X] Populate about me page + make a folder for images (i.e. my **headshot**, a )
     - add resume, linkedIN, maybe twitter    
 
-- [ ] Format: 
+- [X] Format: 
     - [X] Once **we make the links go to the relevant pages on index**, make sure the page content goes on the right side of that.
-    - [ ] Reformat pages to use left-most sidebar. 
-    - [ ] main container: want gap between the h1 and the navbar.
-- [ ] Add preview image to ReadME.md
+    - [X] Reformat pages to use left-most sidebar. 
+    - [X] main container: want gap between the h1 and the navbar.
+
 
 If time permits:
-
+- [ ] Add preview image to ReadME.md
 - [ ] *find a way to have the header appear on each page. Is there a way to load/inject html from a **common header**.html?*
     - [X] Use Bootstrap to create a header.
     https://getbootstrap.com/docs/5.3/examples/headers/#
