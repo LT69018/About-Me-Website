@@ -25,6 +25,10 @@ nav {
     color: white;
 }
 
+a {
+    color:rgb(18, 86, 75);
+}
+
 .banner {
     background-color:blueviolet;
     color: white;

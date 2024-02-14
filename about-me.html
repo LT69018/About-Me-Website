@@ -8,27 +8,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css" />
-    <title>LT69018 Site</title>
+    <link rel="icon" type="image/x-icon" href="./jess_icon.jpg">
+    <title>Jess Turner</title>
   </head>
   <body>
-    <header>
-      <nav> 
-        <ul class="nav nav-tabs navbar-expand">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="true" href="about-me.html">About Me</a>
-          </li>
-        </ul>
-      </nav>
-      </header>
-    <div class="container">
-      
-      <h1>About me</h1>
-
-      <p>My name is Jess!</p>
-      <p>I will come back and fill in more information later :)</p>
+    <!-- Found out to use p-0 to get rid of left margin from this source: https://stackoverflow.com/a/54589229 -->
+    <div class="container-fluid p-0">
+      <div class="row vh-100">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 400px; height: 100%">
+          <!-- <div class="block d-flex justify-content-center text-center"> -->
+          <h4 class="text-center">Jessica Turner</h1>
+          <img width="200px" height="200px" class="rounded-circle center" alt="Jess' Headshot" src="./jess_headshot.jpg" />
+          <h6 class="text-center" margin-top="10px">Computer Scientist</h2>
+          <!-- </div> -->
+          
+          <hr>
+          <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active" aria-current="page">
+                <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="about-me.html" class="nav-link text-white">
+                <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+                About Me
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+                Research Experience
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+                Project Experience
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex flex-column flex-shrink-9 body" style="flex: 1; margin-top:25px">
+          <div class="text-center justify-content-center block">
+            <h1>Biography</h1>
+            <p><em>Hello! My name is Jessica (aka Jess) Turner!</em></p>
+            <p>I am a senior computer science major at the <a href="https://umbc.edu/">University of Maryland, Baltimore County (UMBC)</a>.</p>
+            <p>After I graduate this May (2024), I want to join software development roles before I start my PhD.</p>
+            <p>Feel free to check out my <a href="about-me.html">"About Me"</a> page for more!</p>
+            <div>
+              <img src="./jess_larger_landscape.jpg" width="600px">
+            </div>
+            <img src="./UMBC-COEIT-image.png" width="400px">
+            
+          </div>
+        </div>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
